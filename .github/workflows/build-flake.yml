@@ -1,7 +1,7 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build Flake M nice_nano_v2'
+name: 'Build Flake M'
 on: workflow_dispatch
 jobs:
   build:
@@ -9,4 +9,4 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
-      shield: '["flake_left","flake_right"]'
+      shield: '["flake-m_left","flake-m_right"]'
